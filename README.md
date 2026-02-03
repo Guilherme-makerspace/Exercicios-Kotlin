@@ -606,42 +606,172 @@ fun main() {
 
 ### *Exercicio 42*
 ```kotlin
+import kotlin.math.pow
+
+fun main() {
+    var num = readln().toDouble()
+    var quadrado = num.pow(2)
+    var resultado_quadrados = num
+    if(num > 14 && num < 201){
+        resultado_quadrados = quadrado
+        println(resultado_quadrados)
+    } else {
+        println("Fora da faixa")
+    }
+}
 ```
 ### *Exercicio 43*
 ```kotlin
+fun main() {
+    var num = readln().toInt()
+    var multiplicador = 1
+    var produto = num
+    while(multiplicador < 11){
+        produto = num * multiplicador
+        println("$num x $multiplicador = $produto")
+        multiplicador++
+    }
+}
 ```
 ### *Exercicio 44*
 ```kotlin
+fun main() {
+    var soma = 0
+    var contador = 1
+    while(contador < 101){
+        println("$contador + $soma = ${contador + soma}")
+        soma += contador
+        contador++
+    }
+    println(soma)
+}
 ```
 ### *Exercicio 45*
 ```kotlin
+fun main() {
+    var somaPares = 0
+    for(nums in 2..500){
+    if (nums % 2 != 0){
+        continue
+    } else {
+        println("$somaPares + $nums = ${somaPares + nums}")
+        somaPares += nums
+    }
+    }
+}
 ```
 ### *Exercicio 46*
 ```kotlin
+fun main() {
+    var numero = 1
+    while(numero <= 199){
+        println(numero)
+        numero +=2
+    }
+}
 ```
 ### *Exercicio 47*
 ```kotlin
+fun main() {
+    for(nums in 4..196 step 4){
+        println(nums)    
+    }
+}
 ```
 ### *Exercicio 48*
 ```kotlin
+import kotlin.math.pow
+
+fun main() {
+    var expoente = 0
+    while(expoente <= 15){
+        var potencia = 3.0.pow(expoente)
+        println("3^$expoente = $potencia")
+        expoente++
+    }
+}
 ```
 ### *Exercicio 49*
 ```kotlin
+fun main() {
+    var base = readln().toDouble()
+    var expoente = readln().toInt()
+    var potencia = base
+    for(i in 1..expoente){
+        potencia *= base
+        println("$base elevado a $expoente = $potencia")
+    }
+}
 ```
 ### *Exercicio 50*
 ```kotlin
+fun main() {
+    var termo1 = 1
+    var termo2 = 1
+    println(termo1)
+    println(termo2)
+    var i = 3
+    while(i <= 30){
+        var proximoTermo = termo1 + termo2
+        println(proximoTermo)
+        termo1 = termo2
+        termo2 = proximoTermo
+        i++
+    }
+}
 ```
 ### *Exercicio 51*
 ```kotlin
+fun main() {
+    for (grauCelsius in 10..100 step 10){
+        var grauFahrenheit = (grauCelsius * 9/5) + 32
+        println("$grauCelsius °C = $grauFahrenheit °F")
+    }
+}
 ```
 ### *Exercicio 52*
 ```kotlin
+import kotlin.math.pow
+
+fun main() {
+    var totalGraos = 0.0
+    var quadro = 1
+    while(quadro <= 64){
+        var graosNoQuadro = 2.0.pow(quadro - 1)
+        totalGraos += graosNoQuadro
+        println("Total de grãos no tabuleiro é $totalGraos na casa $quadro")
+        quadro++
+    }
+}
 ```
 ### *Exercicio 53*
 ```kotlin
+fun main() {
+    var somatorio = 0
+    for(valor in 1..3){
+        var fatorial = 1
+        for(nums in 1..valor){
+            fatorial += nums
+            somatorio += fatorial
+        }
+    }
+    println("Somatorio da fatorial de cada valor lido é $somatorio")
+}
 ```
 ### *Exercicio 54*
 ```kotlin
+fun main() {
+    var somatorio = 0.0
+    var contador = 0
+    while(contador < 7){
+        var valor = readln().toDouble()
+        somatorio += valor
+        contador++
+    }
+    var media = somatorio / contador
+    println("Somatoio: $somatorio, Media: $media")
+}
+
 ```
 ### *Exercicio 55*
 ```kotlin
