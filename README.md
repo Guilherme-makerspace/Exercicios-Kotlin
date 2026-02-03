@@ -1,6 +1,8 @@
-# Exercicios-Kotlin
+# ***Exercicios-Kotlin***
 
-## *Exercicio 1*
+## ***Estrutura Sequencial***
+
+### *Exercicio 1*
 ```kotlin
 fun main() {
     var entradaCelsius = readln()
@@ -10,7 +12,7 @@ fun main() {
     println(saidaFahrenheit)
 }
 ```
-## *Exercicio 2*
+### *Exercicio 2*
 ```kotlin
   fun main() {
     var entradaFahrenheit = readln()
@@ -20,7 +22,7 @@ fun main() {
     println(saidaCelsius)
 }
 ```
-## *Exercicio 3*
+### *Exercicio 3*
 ```kotlin
 fun main() {
     val pi = 3.14159
@@ -33,7 +35,7 @@ fun main() {
     println(volumeLata)
 }
 ```
-## *Exercicio 4*
+### *Exercicio 4*
 ```kotlin
 fun main() {
     var distancia = readln()
@@ -43,7 +45,7 @@ fun main() {
     println(litros)
 }
 ```
-## *Exercicio 5*
+### *Exercicio 5*
 ```kotlin
 fun main() {
     val valorOriginal = readln().toDouble()
@@ -55,7 +57,7 @@ fun main() {
 }
 
 ```
-## *Exercicio 6*
+### *Exercicio 6*
 ```kotlin
 fun main() {
     var a = readln().toInt()
@@ -68,7 +70,7 @@ fun main() {
 }
 
 ```
-## *Exercicio 7*
+### *Exercicio 7*
 ```kotlin
 fun main() {
     var a = readln().toInt()
@@ -81,7 +83,7 @@ fun main() {
 
 }
 ```
-## *Exercicio 8*
+### *Exercicio 8*
 ```kotlin
 fun main() {
     var comprimento = readln().toDouble()
@@ -94,7 +96,7 @@ fun main() {
     // volume = comprimento * largura * altura
 }
 ```
-## *Exercicio 9*
+### *Exercicio 9*
 ```kotlin
 import kotlin.math.pow
 
@@ -106,7 +108,7 @@ fun main() {
     println(numeroElevado)
 }
 ```
-## *Exercicio 10*
+### *Exercicio 10*
 ```kotlin
 fun main() {
     var numero1 = readln().toDouble()
@@ -118,7 +120,7 @@ fun main() {
 }
 
 ```
-## *Exercicio 11*
+### *Exercicio 11*
 ```kotlin
 fun main() {
     var valorDolar = readln().toDouble()
@@ -131,7 +133,7 @@ fun main() {
     // valor_em_real = valor_em_dolar * cotacao_do_dolar
 }
 ```
-## *Exercicio 12*
+### *Exercicio 12*
 ```kotlin
 fun main() {
     var valorReal = readln().toDouble()
@@ -144,7 +146,7 @@ fun main() {
     // valor_em_dolar = valor_em_real / cotacao_do_dolar
 }
 ```
-## *Exercicio 13*
+### *Exercicio 13*
 ```kotlin
 import kotlin.math.pow
 
@@ -161,7 +163,7 @@ fun main() {
 }
 
 ```
-## *Exercicio 14*
+### *Exercicio 14*
 ```kotlin
 import kotlin.math.pow
 
@@ -176,7 +178,7 @@ fun main() {
 }
 
 ```
-## *Exercicio 15*
+### *Exercicio 15*
 ```kotlin
 import kotlin.math.pow
 
@@ -194,7 +196,7 @@ fun main() {
 }
 
 ```
-## *Exercicio 16*
+### *Exercicio 16*
 ```kotlin
 fun main() {
     var salario = readln().toDouble()
@@ -208,7 +210,7 @@ fun main() {
     println("Novo salario: $novoSalario aumento concedido = $aumento")
 }
 ```
-## *Exercicio 17*
+### *Exercicio 17*
 ```kotlin
 import kotlin.math.pow
 
@@ -220,7 +222,7 @@ fun main() {
     println(area)
 }
 ```
-## *Exercicio 18*
+### *Exercicio 18*
 ```kotlin
 fun main() {
     var votos_candidato1 = readln().toDouble()
@@ -244,7 +246,7 @@ fun main() {
     println("percentual_branco = $percentual_branco")    
 }
 ```
-## *Exercicio 19*
+### *Exercicio 19*
 ```kotlin
 fun main() {
    var val1 = readln().toDouble()
@@ -265,7 +267,7 @@ fun main() {
     //divisao = valor1 / valor2
 }
 ```
-## *Exercicio 20*
+### *Exercicio 20*
 ```kotlin
 fun main() {
     var distancia = readln().toDouble()
@@ -276,7 +278,7 @@ fun main() {
     println("Velocidade = $velocidade m/s")
 }
 ```
-## *Exercicio* 21
+### *Exercicio* 21
 ```kotlin
 import kotlin.math.pow
 
@@ -289,7 +291,7 @@ fun main() {
     println(potencia)
 }
 ```
-## *Exercicio 22*
+### *Exercicio 22*
 ```kotlin
 import kotlin.math.pow
 
@@ -301,7 +303,7 @@ fun main() {
     println(volume)
 }
 ```
-## *Exercicio 23*
+### *Exercicio 23*
 ```kotlin
 fun main() {
     var medida_pes = readln().toDouble()
@@ -310,7 +312,7 @@ fun main() {
     println(medida_metros)
 }
 ```
-## *Exercicio 24*
+### *Exercicio 24*
 ```kotlin
 import kotlin.math.pow
 
@@ -323,7 +325,7 @@ fun main() {
     println(raiz)
 }
 ```
-## *Exercicio 25*
+### *Exercicio 25*
 ```kotlin
 fun main() {
     var num = readln().toInt()
@@ -333,7 +335,7 @@ fun main() {
     println("Sucessor = $sucessor. Antecessor = $antecessor")
 }
 ```
-## *Exercicio 26*
+### *Exercicio 26*
 ```kotlin
 import kotlin.math.pow
 
@@ -346,7 +348,10 @@ fun main() {
     println(resultado_quadrado)
 }
 ```
-## *Exercicio 27*
+
+## ***Estrutura de Decisão***
+
+### *Exercicio 27*
 ```kotlin
 fun main() {
     var n1 = readln().toInt()
@@ -360,7 +365,7 @@ fun main() {
     }
 }
 ```
-## *Exercicio 28*
+### *Exercicio 28*
 ```kotlin
 fun main() {
     var n1 = readln().toInt()
@@ -373,7 +378,7 @@ fun main() {
     }
 }
 ```
-## *Exercicio 29*
+### *Exercicio 29*
 ```kotlin
 fun main() {
     var nota1 = readln().toDouble()
@@ -388,7 +393,7 @@ fun main() {
     }
 }
 ```
-## *Exercicio 30*
+### *Exercicio 30*
 ```kotlin
 fun main() {
     var nota1 = readln().toDouble()
@@ -405,7 +410,7 @@ fun main() {
     }
 }
 ```
-## *Exercicio 31*
+### *Exercicio 31*
 ```kotlin
 import kotlin.math.pow
 import kotlin.math.sqrt
@@ -424,7 +429,7 @@ fun main() {
     }
 }
 ```
-## *Exercicio 32*
+### *Exercicio 32*
 ```kotlin
 fun main() {
     var n1 = readln().toInt()
@@ -445,7 +450,7 @@ fun main() {
     println("$n1, $n2, $n3")
 }
 ```
-## *Exercicio 33*
+### *Exercicio 33*
 ```kotlin
 fun main() {
     var n1 = readln().toInt()
@@ -467,7 +472,7 @@ fun main() {
 }
 
 ```
-## *Exercicio 34*
+### *Exercicio 34*
 ```kotlin
 fun main() {
     var n1 = readln().toInt()
@@ -489,7 +494,7 @@ fun main() {
     
 }
 ```
-## *Exercicio 35*
+### *Exercicio 35*
 ```kotlin
 fun main() {
     var n1 = readln().toInt()
@@ -528,7 +533,7 @@ fun main() {
 }
 
 ```
-## *Exercicio 36*
+### *Exercicio 36*
 ```kotlin
 fun main() {
     var n1 = readln().toInt()
@@ -539,7 +544,7 @@ fun main() {
     }
 }
 ```
-## *Exercicio 37*
+### *Exercicio 37*
 ```kotlin
 fun main() {
     var n1 = readln().toInt()
@@ -550,7 +555,7 @@ fun main() {
     }
 }
 ```
-## *Exercicio 38*
+### *Exercicio 38*
 ```kotlin
 fun main() {
     var n1 = readln().toInt()
@@ -561,7 +566,7 @@ fun main() {
     }
 }
 ```
-## *Exercicio 39*
+### *Exercicio 39*
 ```kotlin
 fun main() {
     var n1 = readln().toInt()
@@ -572,7 +577,7 @@ fun main() {
     }
 }
 ```
-## *Exercicio 40*
+### *Exercicio 40*
 ```kotlin
 fun main() {
     var n1 = readln().toInt()
@@ -585,7 +590,7 @@ fun main() {
     }
 }
 ```
-## *Exercicio 41*
+### *Exercicio 41*
 ```kotlin
 fun main() {
     var n1 = readln().toInt()
@@ -597,34 +602,251 @@ fun main() {
     }
 }
 ```
-## *Exercicio *
+## ***Estrutura de Repetição***
+
+### *Exercicio 42*
 ```kotlin
 ```
-## *Exercicio *
+### *Exercicio 43*
 ```kotlin
 ```
-## *Exercicio *
+### *Exercicio 44*
 ```kotlin
 ```
-## *Exercicio *
+### *Exercicio 45*
 ```kotlin
 ```
-## *Exercicio *
+### *Exercicio 46*
 ```kotlin
 ```
-## *Exercicio *
+### *Exercicio 47*
 ```kotlin
 ```
-## *Exercicio *
+### *Exercicio 48*
 ```kotlin
 ```
-## *Exercicio *
+### *Exercicio 49*
 ```kotlin
 ```
-## *Exercicio *
+### *Exercicio 50*
 ```kotlin
 ```
-## *Exercicio *
+### *Exercicio 51*
+```kotlin
+```
+### *Exercicio 52*
+```kotlin
+```
+### *Exercicio 53*
+```kotlin
+```
+### *Exercicio 54*
+```kotlin
+```
+### *Exercicio 55*
+```kotlin
+```
+### *Exercicio 56*
+```kotlin
+```
+### *Exercicio 57*
+```kotlin
+```
+### *Exercicio 58*
+```kotlin
+```
+### *Exercicio 59*
+```kotlin
+```
+### *Exercicio 60*
+```kotlin
+```
+## ***Estrutura de Dados de Uma Dimensão***
+
+### *Exercicio 61*
+```kotlin
+```
+### *Exercicio 62*
+```kotlin
+```
+### *Exercicio 63*
+```kotlin
+```
+### *Exercicio 64*
+```kotlin
+```
+### *Exercicio 65*
+```kotlin
+```
+### *Exercicio 66*
+```kotlin
+```
+### *Exercicio 67*
+```kotlin
+```
+### *Exercicio 68*
+```kotlin
+```
+### *Exercicio 69*
+```kotlin
+```
+### *Exercicio 70*
+```kotlin
+```
+### *Exercicio 71*
+```kotlin
+```
+### *Exercicio 72*
+```kotlin
+```
+### *Exercicio 73*
+```kotlin
+```
+### *Exercicio 74*
+```kotlin
+```
+### *Exercicio 75*
+```kotlin
+```
+### *Exercicio 76*
+```kotlin
+```
+### *Exercicio 77*
+```kotlin
+```
+### *Exercicio 78*
+```kotlin
+```
+### *Exercicio 79*
+```kotlin
+```
+### *Exercicio 80*
+```kotlin
+```
+### *Exercicio 81*
+```kotlin
+```
+### *Exercicio 82*
+```kotlin
+```
+### *Exercicio 83*
+```kotlin
+```
+### *Exercicio 84*
+```kotlin
+```
+### *Exercicio 85*
+```kotlin
+```
+### *Exercicio 86*
+```kotlin
+```
+## ***Estrutura de Dados de Duas Dimensões***
+
+### *Exercicio 87*
+```kotlin
+```
+### *Exercicio 88*
+```kotlin
+```
+### *Exercicio 89*
+```kotlin
+```
+### *Exercicio 90*
+```kotlin
+```
+### *Exercicio 91*
+```kotlin
+```
+### *Exercicio 92*
+```kotlin
+```
+### *Exercicio 93*
+```kotlin
+```
+### *Exercicio 94*
+```kotlin
+```
+### *Exercicio 95*
+```kotlin
+```
+### *Exercicio 96*
+```kotlin
+```
+### *Exercicio 97*
+```kotlin
+```
+### *Exercicio 98*
+```kotlin
+```
+### *Exercicio 99*
+```kotlin
+```
+## ***Estrutura de Heterogêneas***
+
+### *Exercicio 100*
+```kotlin
+```
+### *Exercicio 101*
+```kotlin
+```
+### *Exercicio 102*
+```kotlin
+```
+### *Exercicio 103*
+```kotlin
+```
+### *Exercicio 104*
+```kotlin
+```
+### *Exercicio 105*
+```kotlin
+```
+### *Exercicio 106*
+```kotlin
+```
+### *Exercicio 107*
+```kotlin
+```
+### *Exercicio 108*
+```kotlin
+```
+### *Exercicio 109*
+```kotlin
+```
+### *Exercicio 110*
+```kotlin
+```
+### *Exercicio 111*
+```kotlin
+```
+### *Exercicio 112*
+```kotlin
+```
+### *Exercicio 113*
+```kotlin
+```
+## ***Estrutura de Subprogramas***
+
+### *Exercicio 114*
+```kotlin
+```
+### *Exercicio 115*
+```kotlin
+```
+### *Exercicio 116*
+```kotlin
+```
+### *Exercicio 117*
+```kotlin
+```
+### *Exercicio 118*
+```kotlin
+```
+### *Exercicio 119*
+```kotlin
+```
+### *Exercicio 120*
 ```kotlin
 ```
 
