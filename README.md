@@ -346,3 +346,286 @@ fun main() {
     println(resultado_quadrado)
 }
 ```
+## *Exercicio 27*
+```kotlin
+fun main() {
+    var n1 = readln().toInt()
+    var n2 = readln().toInt()
+    var diferenca = n1 - n2
+    if (n1 > n2){
+        println(diferenca)
+    } else {
+        diferenca = n2 - n1
+        println(diferenca)
+    }
+}
+```
+## *Exercicio 28*
+```kotlin
+fun main() {
+    var n1 = readln().toInt()
+    if (n1 > 0){
+        println("Positivo")
+    }else if(n1 == 0){
+        println("Neutro")
+    }else{
+        println("Negativo")
+    }
+}
+```
+## *Exercicio 29*
+```kotlin
+fun main() {
+    var nota1 = readln().toDouble()
+    var nota2 = readln().toDouble()
+    var nota3 = readln().toDouble()
+    var nota4 = readln().toDouble()
+    val media = (nota1 + nota2 + nota3 + nota4) / 4
+    if(media >= 5){
+        println("Média: $media Aprovado")
+    } else {
+        println("Média: $media Reprovado")
+    }
+}
+```
+## *Exercicio 30*
+```kotlin
+fun main() {
+    var nota1 = readln().toDouble()
+    var nota2 = readln().toDouble()
+    var nota3 = readln().toDouble()
+    var nota4 = readln().toDouble()
+    val media = (nota1 + nota2 + nota3 + nota4) / 4
+    if(media > 7){
+        println("Média: $media Aprovado")
+    } else if(media >= 5) {
+        println("Média: $media Exame")
+    } else {
+        println("Média: $media Reprovado")
+    }
+}
+```
+## *Exercicio 31*
+```kotlin
+import kotlin.math.pow
+import kotlin.math.sqrt
+
+fun main() {
+    var a = readln().toDouble()
+    var b = readln().toDouble()
+    var c = readln().toDouble()
+    val delta = b.pow(2) - 4 * a * c
+    if (delta >= 0){
+        val x1 = (sqrt(delta) - b) / (2 * a)
+        val x2 = (sqrt(delta) + b) / (2 * a)
+        println("x1 = $x1, x2 = $x2")
+    } else {
+        println("Não existem raizes reais")
+    }
+}
+```
+## *Exercicio 32*
+```kotlin
+fun main() {
+    var n1 = readln().toInt()
+    var n2 = readln().toInt()
+    var n3 = readln().toInt()
+    var temp = n1
+    if (n1 > n2){
+        n1 = n2
+        n2 = temp
+    } else if(n1 > n3){
+        n1 = n3
+        n3 = temp
+    } else if (n2 > n3){
+        temp = n2
+        n2 = n3
+        n3 = temp
+    }
+    println("$n1, $n2, $n3")
+}
+```
+## *Exercicio 33*
+```kotlin
+fun main() {
+    var n1 = readln().toInt()
+    var n2 = readln().toInt()
+    var n3 = readln().toInt()
+    var n4 = readln().toInt()
+    if(n1 % 2 == 0 && n1 % 3 == 0){
+        println(n1)   
+    }
+    if(n2 % 2 == 0 && n2 % 3 == 0){
+        println(n2)
+    }
+    if(n3 % 2 == 0 && n3 % 3 == 0){
+        println(n3)
+    }
+    if(n4 % 2 == 0 && n4 % 3 == 0){
+        println(n4)
+    }
+}
+
+```
+## *Exercicio 34*
+```kotlin
+fun main() {
+    var n1 = readln().toInt()
+    var n2 = readln().toInt()
+    var n3 = readln().toInt()
+    var n4 = readln().toInt()
+    if(n1 % 2 == 0 || n1 % 3 == 0){
+        println(n1)   
+    }
+    if(n2 % 2 == 0 || n2 % 3 == 0){
+        println(n2)
+    }
+    if(n3 % 2 == 0 || n3 % 3 == 0){
+        println(n3)
+    }
+    if(n4 % 2 == 0 || n4 % 3 == 0){
+        println(n4)
+    }
+    
+}
+```
+## *Exercicio 35*
+```kotlin
+fun main() {
+    var n1 = readln().toInt()
+    var n2 = readln().toInt()
+    var n3 = readln().toInt()
+    var n4 = readln().toInt()
+    var n5 = readln().toInt()
+    
+    var maiorValor = n1
+    var menorValor = n1
+    if (n2 > maiorValor){
+        maiorValor = n2
+    }
+    if (n2 < menorValor){
+        menorValor = n2
+    }
+    if (n3 > maiorValor){
+        maiorValor = n3
+    }
+    if (n3 < menorValor){
+        menorValor = n3
+    }
+    if (n4 > maiorValor){
+        maiorValor = n4
+    }
+    if (n4 < menorValor){
+        menorValor = n4
+    }
+    if (n5 > maiorValor){
+        maiorValor = n5
+    }
+    if (n5 < menorValor){
+        menorValor = n5
+    }
+    println("O maior numero é $maiorValor e o menor é $menorValor")
+}
+
+```
+## *Exercicio 36*
+```kotlin
+fun main() {
+    var n1 = readln().toInt()
+    if (n1 % 2 == 0){
+        println("Par")
+    } else {
+        println("Împar")
+    }
+}
+```
+## *Exercicio 37*
+```kotlin
+fun main() {
+    var n1 = readln().toInt()
+    if (n1 > 0 && n1 < 10){
+        println("Valor está na faixa permitida")
+    } else {
+        println("Valor não está na faixa permitida")
+    }
+}
+```
+## *Exercicio 38*
+```kotlin
+fun main() {
+    var n1 = readln().toInt()
+    if (n1 <= 3){
+        println(n1)
+    } else {
+        println("Nenhum valor apresentado")
+    }
+}
+```
+## *Exercicio 39*
+```kotlin
+fun main() {
+    var n1 = readln().toInt()
+    if (n1 % 3 == 0 && n1 % 5 == 0){
+        println(n1)
+    } else {
+        println("Nenhum valor apresentado")
+    }
+}
+```
+## *Exercicio 40*
+```kotlin
+fun main() {
+    var n1 = readln().toInt()
+    var n2 = readln().toInt()
+    var n3 = readln().toInt()
+    if (n1 + n2 + n3 > 100){
+        println("A soma de $n1, $2 e $n1 é igual a ${n1 + n2 + n3}, que é maior que 100.")
+    } else {
+        println("Nenhum valor apresentado")
+    }
+}
+```
+## *Exercicio 41*
+```kotlin
+fun main() {
+    var n1 = readln().toInt()
+    n1 *= 2
+    if (n1 > 30){
+        println(n1)    
+    } else {
+        println("Nenhum valor apresentado")
+    }
+}
+```
+## *Exercicio *
+```kotlin
+```
+## *Exercicio *
+```kotlin
+```
+## *Exercicio *
+```kotlin
+```
+## *Exercicio *
+```kotlin
+```
+## *Exercicio *
+```kotlin
+```
+## *Exercicio *
+```kotlin
+```
+## *Exercicio *
+```kotlin
+```
+## *Exercicio *
+```kotlin
+```
+## *Exercicio *
+```kotlin
+```
+## *Exercicio *
+```kotlin
+```
+
+
